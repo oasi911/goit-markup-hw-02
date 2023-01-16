@@ -15,41 +15,49 @@
   <body>
     <header>
       <a class="logo" href="https://oasi911.github.io/goit-markup-hw-02/"
-        >Web</a
+        >Web<span class="second-part">Studio</span></a
       >
-      <ul class="navigation">
-        <li><a href="index.html">Студія</a></li>
-        <li><a href="portfolio.html">Портфоліо</a></li>
-        <li><a href="#contacts">Контакти</a></li>
+      <ul class="navigation list">
+        <li><a class="nav-button" href="index.html">Студія</a></li>
+        <li>
+          <a class="nav-button current" href="portfolio.html">Портфоліо</a>
+        </li>
+        <li><a class="nav-button" href="#contacts">Контакти</a></li>
       </ul>
       <address class="address">
-        <ul>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+        <ul class="list">
+          <li>
+            <a class="address-button" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="address-button" href="tel:+380961111111"
+              >+38 096 111 11 11</a
+            >
+          </li>
         </ul>
       </address>
     </header>
 
     <main>
-      <div class="examples-buttons">
-        <ul>
-          <li><button type="button">Усі</button></li>
-          <li><button type="button">Веб-сайти</button></li>
-          <li><button type="button">Додатки</button></li>
-          <li><button type="button">Дизайн</button></li>
-          <li><button type="button">Маркетинг</button></li>
-        </ul>
-      </div>
       <section class="examples">
-        <ul>
+        <ul class="examples-buttons list">
+          <li><button class="button" type="button">Усі</button></li>
+          <li><button class="button" type="button">Веб-сайти</button></li>
+          <li><button class="button" type="button">Додатки</button></li>
+          <li><button class="button" type="button">Дизайн</button></li>
+          <li><button class="button" type="button">Маркетинг</button></li>
+        </ul>
+        <ul class="list">
           <li>
             <img
               src="images/portfolio-picture-1.jpg"
               alt="portfolio picture 1"
               width="294"
             />
-            <h3>Технокряк</h3>
-            <p>Веб-сайт</p>
+            <h2 class="name">Технокряк</h2>
+            <p class="description">Веб-сайт</p>
           </li>
           <li>
             <img
@@ -57,8 +65,8 @@
               alt="portfolio picture 2"
               width="294"
             />
-            <h3>Постер New Orlean vs Golden Star</h3>
-            <p>Дизайн</p>
+            <h2 class="name">Постер New Orlean vs Golden Star</h2>
+            <p class="description">Дизайн</p>
           </li>
           <li>
             <img
@@ -66,8 +74,8 @@
               alt="portfolio picture 3"
               width="294"
             />
-            <h3>Ресторан Seafood</h3>
-            <p>Додаток</p>
+            <h2 class="name">Ресторан Seafood</h2>
+            <p class="description">Додаток</p>
           </li>
           <li>
             <img
@@ -75,8 +83,8 @@
               alt="portfolio picture 4"
               width="294"
             />
-            <h3>Проєкт Prime</h3>
-            <p>Маркетинг</p>
+            <h2 class="name">Проєкт Prime</h2>
+            <p class="description">Маркетинг</p>
           </li>
           <li>
             <img
@@ -84,8 +92,8 @@
               alt="portfolio picture 5"
               width="294"
             />
-            <h3>Проєкт Boxes</h3>
-            <p>Додаток</p>
+            <h2 class="name">Проєкт Boxes</h2>
+            <p class="description">Додаток</p>
           </li>
           <li>
             <img
@@ -93,8 +101,8 @@
               alt="portfolio picture 6"
               width="294"
             />
-            <h3>Inspiration has no Borders</h3>
-            <p>Веб-сайт</p>
+            <h2 class="name">Inspiration has no Borders</h2>
+            <p class="description">Веб-сайт</p>
           </li>
           <li>
             <img
@@ -102,8 +110,8 @@
               alt="portfolio picture 7"
               width="294"
             />
-            <h3>Видання Limited Edition</h3>
-            <p>Дизайн</p>
+            <h2 class="name">Видання Limited Edition</h2>
+            <p class="description">Дизайн</p>
           </li>
           <li>
             <img
@@ -111,8 +119,8 @@
               alt="portfolio picture 8"
               width="294"
             />
-            <h3>Проєкт LAB</h3>
-            <p>Маркетинг</p>
+            <h2 class="name">Проєкт LAB</h2>
+            <p class="description">Маркетинг</p>
           </li>
           <li>
             <img
@@ -120,8 +128,8 @@
               alt="portfolio picture 9"
               width="294"
             />
-            <h3>Growing Business</h3>
-            <p>Додаток</p>
+            <h2 class="name">Growing Business</h2>
+            <p class="description">Додаток</p>
           </li>
         </ul>
       </section>
@@ -129,20 +137,29 @@
 
     <footer class="footer">
       <a class="footer-logo" href="https://oasi911.github.io/goit-markup-hw-02/"
-        >Web</a
+        >Web<span class="second-part">Studio</span></a
       >
       <address>
-        <ul>
+        <ul class="list">
           <li>
             <a
+              class="button coordinates"
               href="https://goo.gl/maps/8TYebSpP7c4H44jo8"
               target="_blank"
               rel="«noopener noreferrer"
               >м. Київ, пр-т Лесі Українки, 26</a
             >
           </li>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+          <li>
+            <a class="button item" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="button item" href="tel:+380961111111"
+              >+38 096 111 11 11</a
+            >
+          </li>
         </ul>
       </address>
     </footer>
